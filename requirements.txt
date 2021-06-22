@@ -1,0 +1,7 @@
+pandas==1.2.4
+numpy==1.19.5
+keras==2.5.0rc0
+tensorflow
+flask==2.0.0
+emoji
+werkzeug

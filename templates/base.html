@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Think Twice</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename = 'mylogo.png')}}">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='style.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+   
+</head>
+
+
+
+
+<div class="topnav">
+      <a class="active" href="/"><img src="/static/mylogo.png" width="50" height="50"></a>
+      <a href="https://dataviz-tt.herokuapp.com/">WHY THINK TWICE?</a> 
+      <a href="/algorithm">MODEL v1.0</a> 
+      
+         
+      
+    </div>
+  </div>
+
+
+
+
+<body>
+    
+    <div class="container">
+    {% block content %}
+    <!-- define pages main content here in other template-->
+    {% endblock %}
+    
+    </div>
+    <footer>
+        
+        <h3>Developed by Alisa Kranz </h3>
+        <a href="https://github.com/trigig"><h3>Visit my Github</h3></a>
+       
+    </footer>
+
+</body>
+</html>    

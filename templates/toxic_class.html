@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<center>
+<div class = "row">     
+        
+    {% if pred >=0.5 %}
+        <h2>Do you really want to post this comment?</h2>
+        <img src="static/pexels-cottonbro-3926749.jpg" width="60%" style="margin-bottom:0mm;" >  
+        <h3> Photo by cottonbro from Pexels </h3>  
+    {% elif pred >=0.3 %}
+        <h2>Get some coffee & Think Twice!</h2>
+        <img src="static/pexels-kevin-menajang-982612.jpg" width="60%" style="margin-bottom:0mm;" >  
+        <h3>Photo by Kevin Menajang from Pexels</h3>    
+    {% else %}
+        <h2>This is OK!</h2>
+        <img src="static/pexels-roman-odintsov-6898854.jpg" width="60%" style="margin-bottom:0mm;" >
+        <h3>Photo by ROMAN ODINTSOV from Pexels</h3>
+{% endif %}
+    <h2>The toxic score is: {{pred}}</h2> 
+    <h4>Think twice's toxic score of 1 is the most toxic scale.</h4>
+</div>
+</center>
+
+
+
+
+
+
+{% endblock %}
+

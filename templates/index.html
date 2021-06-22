@@ -1,0 +1,19 @@
+
+{% extends "base.html" %}
+{% block content %}
+
+<img class="banner_image" src="static/mylogo.png" width="45%" style="margin-bottom:0mm;" >
+
+
+<center>
+    
+    <form action="/toxic">
+        <textarea name="user_input" rows="5" cols="50">Type your text here!</textarea>
+        <br><br>
+        <button class="myCoolButton" type="submit">Check toxic scale!</button>
+    </form>        
+
+</center>
+
+
+{% endblock %}

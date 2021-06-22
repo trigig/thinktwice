@@ -1,0 +1,86 @@
+/* tweek rule!
+General CSS Rules
+selector {
+    property: value;
+    another-property: value
+}
+*/
+
+* {
+    background-color: white;
+    font-family: 'monospace';
+}
+
+header {
+    background-color: black;
+
+}
+.header {
+    overflow: hidden;
+           
+}
+  
+.font_1{
+    color: #1c767e;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+h1 {
+    color: #1c767e;
+    font-size:smaller  ;
+        
+}
+
+h2 {
+    color:#3c3c44
+}
+
+h3 {
+    color:#1c767e;
+    font-size: small;
+}
+
+
+.banner_image {
+    display: block;
+
+}
+
+#rate {
+    color: #71D8C2;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myCoolButton {
+    background:salmon;
+}
+
+.topnav {
+    overflow: hidden;
+    }
+  
+  .topnav a {
+    float: left;
+    color: #1c767e;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .topnav a:hover {
+    background-color: #1c767e;
+    color: black;
+  }
+  
+
