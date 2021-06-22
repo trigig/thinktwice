@@ -9,4 +9,4 @@ Think Twice is a toxic comment detector.
 1. Install all library in requirements.
 2. From the main folder, type in command line 'python application.py'
 
-![image] (image/think_twice.png)  
+![image](image/think_twice.png)  
